@@ -23,10 +23,16 @@ header.masthead {
     h1 {
       font-size: 3rem;
     }
+    span{
+      font-size: 0.85rem;
+    }
   }
   @include media-breakpoint-up(xl) {
     h1 {
       font-size: 3.5rem;
+    }
+    span{
+      font-size: 1.2rem;
     }
   }
 }

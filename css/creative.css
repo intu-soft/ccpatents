@@ -10595,6 +10595,27 @@ hr.light {
   border-radius: 10rem;
 }
 
+.btn-dark {
+  color: #fff;
+  background-color: #3f3f3f;
+  border-color: #292929;
+}
+
+.btn-dark.hover {
+  background-color: #2c2c2c;
+  border-color: #1d1d1d;
+}
+
+.btn-dark.focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+}
+
+.btn-dark.disabled {
+  background-color: #3f3f3f;
+  border-color: #292929;
+}
+
 .page-section {
   padding: 8rem 0;
 }
@@ -10698,11 +10719,17 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
+  header.masthead span {
+    font-size: 0.85rem;
+  }
 }
 
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 3.5rem;
+  }
+  header.masthead span {
+    font-size: 1.2rem;
   }
 }
 

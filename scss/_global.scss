@@ -35,6 +35,27 @@ hr.light {
   border-radius: 10rem;
 }
 
+.btn-dark {
+  color: #fff;
+  background-color: #3f3f3f;
+  border-color: #292929;
+
+  &.hover {
+    background-color: #2c2c2c;
+    border-color: #1d1d1d;
+  }
+
+  &.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+  }
+
+  &.disabled {
+    background-color: #3f3f3f;
+    border-color: #292929;
+  }
+}
+
 // Page section padding
 .page-section {
   padding: 8rem 0;
