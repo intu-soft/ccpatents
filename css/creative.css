@@ -10717,7 +10717,9 @@ header.masthead #scroll-down:hover {
 }
 
 header.masthead #scroll-down p {
-  font-size: 15px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
   margin-bottom: 3px;
 }
 
