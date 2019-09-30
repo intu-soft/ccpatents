@@ -102,7 +102,7 @@ async function WebShare() {
     await navigator.share({
       title,
       text,
-      url
+      url,
     });
   } catch (error) {
     return;

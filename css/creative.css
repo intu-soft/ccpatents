@@ -10706,6 +10706,28 @@ header.masthead h1 {
   font-size: 2.25rem;
 }
 
+header.masthead #scroll-down {
+  background: none;
+  color: #fff;
+  font-size: 15px;
+  padding: 3px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  left: 50%;
+  width: 120px;
+  margin-left: -60px;
+}
+
+header.masthead #scroll-down:hover {
+  text-decoration: none;
+  color: #f4623a;
+}
+
+header.masthead #scroll-down p {
+  margin-bottom: 3px;
+}
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;

@@ -15,6 +15,28 @@ header.masthead {
     font-size: 2.25rem;
   }
 
+  #scroll-down {
+    background: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 3px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: 50%;
+    width: 120px;
+    margin-left: -60px;
+
+    &:hover {
+      text-decoration: none;
+      color: $orange;
+    }
+
+    p {
+      margin-bottom: 3px;
+    }
+  }
+
   @include media-breakpoint-up(lg) {
     height: 100vh;
     min-height: 40rem;
