@@ -62,24 +62,26 @@
     autoHeight: true,
     center: true,
     loop: true,
-    items:1,
+    items: 1,
     margin: 30,
     stagePadding: 0,
     nav: false,
     dots: true,
     navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
-    responsive:{
-      0:{
+    responsive: {
+      0: {
         items: 1
       },
-      600:{
+      600: {
         items: 2
       },
-      1000:{
+      1000: {
         items: 3
       }
     }
   });
+
+  document.querySelector('#share').addEventListener('click', WebShare);
 
 })(jQuery); // End of use strict
 
@@ -87,3 +89,51 @@ $(window).resize(function () {
   $('#masthead').height(window.innerHeight);
 
 });
+
+async function WebShare() {
+  if (navigator.share === undefined) {
+    logError('Error: Unsupported feature: navigator.share');
+    return;
+  }
+
+  const title = "CCPatents";
+  const text = "무료 특허 검색 소프트웨어"
+  const url = "https://wwww.ccpatents.net";
+  try {
+    await navigator.share({
+      title,
+      text,
+      url
+    });
+  } catch (error) {
+    logError('Error sharing: ' + error);
+    return;
+  }
+  logText('Successfully sent share');
+}
+async function WebShareDelay() {
+  await sleep(2000);
+  WebShare();
+}
+
+function sleep(delay) {
+  return new Promise(resolve => {
+    setTimeout(resolve, delay);
+  });
+}
+
+function logText(message, isError) {
+  if (isError)
+    console.error(message);
+  else
+    console.log(message);
+  const p = document.createElement('p');
+  if (isError)
+    p.setAttribute('class', 'error');
+  document.querySelector('#output').appendChild(p);
+  p.appendChild(document.createTextNode(message));
+}
+
+function logError(message) {
+  logText(message, true);
+}
