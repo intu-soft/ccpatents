@@ -10706,10 +10706,6 @@ header.masthead h1 {
   font-size: 2.25rem;
 }
 
-header.masthead .btn {
-  padding: 0.85rem 2.85rem;
-}
-
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
