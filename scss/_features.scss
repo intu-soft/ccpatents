@@ -73,9 +73,6 @@
 				font-size: 100px;
 				color: $black;
 				line-height: 1.2;
-				@include gradient-background();
-				-webkit-background-clip: text;
-			  -webkit-text-fill-color: transparent;
 			}
 			h2{
 				// font-size: px;
