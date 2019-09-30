@@ -87,7 +87,6 @@
 
 $(window).resize(function () {
   $('#masthead').height(window.innerHeight);
-
 });
 
 async function WebShare() {

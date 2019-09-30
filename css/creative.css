@@ -10710,9 +10710,9 @@ header.masthead #scroll-down {
   background: none;
   color: #fff;
   font-size: 15px;
-  padding: 3px;
   position: absolute;
   bottom: 20px;
+  padding: 3px;
 }
 
 header.masthead #scroll-down:hover {
