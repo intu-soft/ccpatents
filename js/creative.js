@@ -42,7 +42,7 @@
   $(".youtube-popup").grtyoutube();
 
   $('.carousel-project').owlCarousel({
-    autoplay: true,
+    autoplay: false,
     autoHeight: true,
     center: false,
     loop: false,
