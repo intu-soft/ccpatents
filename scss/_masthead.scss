@@ -18,10 +18,6 @@ header.masthead {
   #scroll-down {
     background: none;
     color: #fff;
-    font-size: 15px;
-    position: absolute;
-    bottom: 20px;
-    padding: 3px;
 
     &:hover {
       text-decoration: none;
@@ -29,7 +25,12 @@ header.masthead {
     }
 
     p {
+      font-size: 15px;
       margin-bottom: 3px;
+    }
+
+    i {
+      font-size: 15px;
     }
   }
 

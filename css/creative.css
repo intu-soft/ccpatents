@@ -10709,10 +10709,6 @@ header.masthead h1 {
 header.masthead #scroll-down {
   background: none;
   color: #fff;
-  font-size: 15px;
-  position: absolute !important;
-  bottom: 20px;
-  padding: 3px;
 }
 
 header.masthead #scroll-down:hover {
@@ -10721,7 +10717,12 @@ header.masthead #scroll-down:hover {
 }
 
 header.masthead #scroll-down p {
+  font-size: 15px;
   margin-bottom: 3px;
+}
+
+header.masthead #scroll-down i {
+  font-size: 15px;
 }
 
 @media (min-width: 992px) {

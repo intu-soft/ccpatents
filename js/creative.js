@@ -86,8 +86,8 @@
 })(jQuery); // End of use strict
 
 window.onresize = function() {
-  let masthead = document.getElementsByClassName('masthead');
-  masthead.style.minHeight = window.innerHeight;
+  let masthead = document.querySelector('.masthead');
+  masthead.style.height = window.innerHeight;
 }
 
 async function WebShare() {
