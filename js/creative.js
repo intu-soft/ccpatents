@@ -85,9 +85,10 @@
 
 })(jQuery); // End of use strict
 
-$(window).resize(function () {
-  $('#masthead').height(window.innerHeight);
-});
+window.onresize = function() {
+  let masthead = document.getElementsByClassName('masthead');
+  masthead.style.minHeight = window.innerHeight;
+}
 
 async function WebShare() {
   if (navigator.share === undefined) {
