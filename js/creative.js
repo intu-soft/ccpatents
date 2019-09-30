@@ -92,7 +92,6 @@ $(window).resize(function () {
 
 async function WebShare() {
   if (navigator.share === undefined) {
-    logError('Error: Unsupported feature: navigator.share');
     return;
   }
 
@@ -106,34 +105,6 @@ async function WebShare() {
       url
     });
   } catch (error) {
-    logError('Error sharing: ' + error);
     return;
   }
-  logText('Successfully sent share');
-}
-async function WebShareDelay() {
-  await sleep(2000);
-  WebShare();
-}
-
-function sleep(delay) {
-  return new Promise(resolve => {
-    setTimeout(resolve, delay);
-  });
-}
-
-function logText(message, isError) {
-  if (isError)
-    console.error(message);
-  else
-    console.log(message);
-  const p = document.createElement('p');
-  if (isError)
-    p.setAttribute('class', 'error');
-  document.querySelector('#output').appendChild(p);
-  p.appendChild(document.createTextNode(message));
-}
-
-function logError(message) {
-  logText(message, true);
 }
