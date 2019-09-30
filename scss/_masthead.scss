@@ -20,7 +20,7 @@ header.masthead {
     color: #fff;
     font-size: 15px;
     padding: 3px;
-    position: absolute;
+    position: absolute !important;
     bottom: 20px;
 
     &:hover {
