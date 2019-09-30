@@ -54,6 +54,9 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
+
+  $(".youtube-popup").grtyoutube();
+
 })(jQuery); // End of use strict
 
 $(window).resize(function () {
