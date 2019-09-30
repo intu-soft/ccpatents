@@ -10601,10 +10601,6 @@ hr.light {
   border-color: #292929;
 }
 
-.btn-dark a {
-  color: #fff !important;
-}
-
 .btn-dark.hover {
   background-color: #2c2c2c;
   border-color: #1d1d1d;
@@ -10734,6 +10730,96 @@ header.masthead h1 {
   }
   header.masthead span {
     font-size: 1.2rem;
+  }
+}
+
+#features .nav-link-wrap {
+  background: #f4623a;
+}
+
+@media (min-width: 768px) {
+  #features .nav-link-wrap {
+    margin-bottom: -60px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #features .nav-link-wrap {
+    background: #f4623a;
+    margin-top: 30px;
+  }
+}
+
+#features .nav-pills p {
+  margin-bottom: 0;
+}
+
+#features .nav-pills .nav-link {
+  float: left;
+  border-radius: 0;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#features .nav-pills .nav-link:after {
+  position: absolute;
+  top: 20px;
+  bottom: 10px;
+  right: 0;
+  width: 0;
+  height: 0;
+  content: '';
+  border-style: solid;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #fafafa transparent transparent;
+  opacity: 0;
+}
+
+#features .nav-pills .nav-link span {
+  font-size: 24px;
+  margin-right: 5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#features .nav-pills .nav-link.active, #features .nav-pills .nav-link:hover {
+  color: #fff;
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: transparent;
+  font-weight: 700;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #features .nav-pills .nav-link.active, #features .nav-pills .nav-link:hover {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+#features .nav-pills .nav-link.active:after, #features .nav-pills .nav-link:hover:after {
+  opacity: 1;
+}
+
+#features .nav-pills .nav-link.active span, #features .nav-pills .nav-link:hover span {
+  color: #fff;
+}
+
+@media (max-width: 767.98px) {
+  #features .nav-pills .nav-link.active:after, #features .nav-pills .nav-link:hover:after {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #features .nav-pills .nav-link {
+    display: block;
+    width: 100%;
   }
 }
 
