@@ -34,6 +34,12 @@ header.masthead {
     }
   }
 
+  @include media-breakpoint-up(sm) {
+    a {
+      margin-top: 70px;
+    }
+  }
+
   @include media-breakpoint-up(lg) {
     height: 100vh;
     min-height: 40rem;
