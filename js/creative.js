@@ -39,22 +39,6 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  // Magnific popup calls
-  $('#portfolio').magnificPopup({
-    delegate: 'a',
-    type: 'image',
-    tLoading: 'Loading image #%curr%...',
-    mainClass: 'mfp-img-mobile',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0, 1]
-    },
-    image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-    }
-  });
-
   $(".youtube-popup").grtyoutube();
 
   $('.carousel-project').owlCarousel({
@@ -70,10 +54,10 @@
     navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
     responsive: {
       0: {
-        items: 1
+        items: 3
       },
       600: {
-        items: 2
+        items: 3
       },
       1000: {
         items: 3
