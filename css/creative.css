@@ -10713,10 +10713,6 @@ header.masthead #scroll-down {
   padding: 3px;
   position: absolute;
   bottom: 20px;
-  right: 20px;
-  left: 50%;
-  width: 120px;
-  margin-left: -60px;
 }
 
 header.masthead #scroll-down:hover {
