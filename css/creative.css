@@ -10725,12 +10725,6 @@ header.masthead #scroll-down i {
   font-size: 15px;
 }
 
-@media (min-width: 576px) {
-  header.masthead a {
-    margin-top: 70px;
-  }
-}
-
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
