@@ -62,7 +62,7 @@
     autoHeight: true,
     center: true,
     loop: true,
-    items:10,
+    items:1,
     margin: 30,
     stagePadding: 0,
     nav: false,
