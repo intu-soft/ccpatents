@@ -44,8 +44,8 @@
   $('.carousel-project').owlCarousel({
     autoplay: true,
     autoHeight: true,
-    center: true,
-    loop: true,
+    center: false,
+    loop: false,
     items: 1,
     margin: 30,
     stagePadding: 0,
