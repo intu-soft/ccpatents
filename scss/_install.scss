@@ -31,10 +31,10 @@
         &:hover,
         &:focus {
             img {
-                -webkit-transform: scale(2.3) translateX(0px) translateY(-50px);
-                -moz-transform: scale(2.3) translateX(0px) translateY(-50px);
-                -o-transform: scale(2.3) translateX(0px) translateY(-50px);
-                transform: scale(2.3) translateX(0px) translateY(-50px);
+                -webkit-transform: scale(2.3) translateX(-100px) translateY(150px);
+                -moz-transform: scale(2.3) translateX(-100px) translateY(150px);
+                -o-transform: scale(2.3) translateX(-100px) translateY(150px);
+                transform: scale(2.3) translateX(-100px) translateY(150px);
             }
 
         }
