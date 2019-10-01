@@ -68,10 +68,6 @@
   document.querySelector('#share').addEventListener('click', WebShare);
 })(jQuery); // End of use strict
 
-window.onresize = function () {
-  let masthead = document.querySelector('.masthead');
-  masthead.style.height = window.innerHeight;
-}
 
 async function WebShare() {
   if (navigator.share === undefined) {
