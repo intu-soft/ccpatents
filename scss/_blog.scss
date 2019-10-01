@@ -36,6 +36,7 @@
             background: rgba(255, 255, 255, .9);
             background: $primary;
             opacity: 0;
+
             @include transition(.6s);
 
             span {
@@ -89,6 +90,7 @@
                 -o-transform: scale(1.3);
                 transform: scale(1.3);
             }
+
         }
     }
 
