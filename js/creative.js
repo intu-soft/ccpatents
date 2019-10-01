@@ -74,7 +74,7 @@ window.onresize = function() {
   masthead.style.height = window.innerHeight;
 }
 
-function WebShare() {
+async function WebShare() {
   if (navigator.share === undefined) {
     return;
   }
