@@ -41,8 +41,8 @@
 
   $(".youtube-popup").grtyoutube();
 
-  $('.carousel-project').owlCarousel({
-    autoplay: true,
+  $('.carousel-posts').owlCarousel({
+    autoplay: false,
     autoHeight: true,
     center: false,
     loop: false,

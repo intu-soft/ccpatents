@@ -10854,7 +10854,7 @@ header.masthead #scroll-down i {
   margin-top: 3.8rem;
 }
 
-#blog .project {
+#blog .post {
   position: relative;
   width: 100%;
   display: block;
@@ -10863,7 +10863,7 @@ header.masthead #scroll-down i {
   margin-bottom: 50px;
 }
 
-#blog .project .img {
+#blog .post .img {
   position: relative;
   overflow: hidden;
   border-radius: 0px;
@@ -10871,7 +10871,7 @@ header.masthead #scroll-down i {
   box-shadow: 0px 42px 29px -31px rgba(0, 0, 0, 0.05);
 }
 
-#blog .project img {
+#blog .post img {
   -webkit-transform: scale(1);
   transform: scale(1);
   z-index: -1;
@@ -10880,13 +10880,13 @@ header.masthead #scroll-down i {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  #blog .project img {
+  #blog .post img {
     -webkit-transition: none;
     transition: none;
   }
 }
 
-#blog .project .text {
+#blog .post .text {
   position: absolute;
   left: 0;
   right: 0;
@@ -10900,13 +10900,13 @@ header.masthead #scroll-down i {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  #blog .project .text {
+  #blog .post .text {
     -webkit-transition: none;
     transition: none;
   }
 }
 
-#blog .project .text span {
+#blog .post .text span {
   font-weight: 500;
   font-size: 13px;
   text-transform: uppercase;
@@ -10914,40 +10914,40 @@ header.masthead #scroll-down i {
   color: rgba(255, 255, 255, 0.8);
 }
 
-#blog .project .text a {
+#blog .post .text a {
   color: #fff;
 }
 
-#blog .project .text a:hover, #blog .project .text a:focus {
+#blog .post .text a:hover, #blog .post .text a:focus {
   text-decoration: none;
 }
 
-#blog .project .text h3 {
+#blog .post .text h3 {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 0;
 }
 
-#blog .project .text div {
+#blog .post .text div {
   color: #fff;
   text-align: right;
 }
 
-#blog .project:hover .text, #blog .project:focus .text {
+#blog .post:hover .text, #blog .post:focus .text {
   opacity: 1;
 }
 
-#blog .project:hover .text .price, #blog .project:focus .text .price {
+#blog .post:hover .text .price, #blog .post:focus .text .price {
   background: #f4623a;
 }
 
-#blog .project:hover .icon, #blog .project:focus .icon {
+#blog .post:hover .icon, #blog .post:focus .icon {
   bottom: 50%;
   opacity: 1;
 }
 
-#blog .project:hover img, #blog .project:focus img {
+#blog .post:hover img, #blog .post:focus img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
