@@ -65,7 +65,7 @@
     }
   });
 
-  document.querySelector('#share').addEventListener('click', WebShare);
+  //document.querySelector('#share').addEventListener('click', WebShare);
 
 })(jQuery); // End of use strict
 
@@ -74,7 +74,7 @@ window.onresize = function() {
   masthead.style.height = window.innerHeight;
 }
 
-async function WebShare() {
+/*async function WebShare() {
   if (navigator.share === undefined) {
     return;
   }
@@ -91,4 +91,4 @@ async function WebShare() {
   } catch (error) {
     return;
   }
-}
+}*/
