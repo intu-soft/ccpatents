@@ -11115,7 +11115,7 @@ header.masthead #scroll-down i {
 }
 
 #install .step-2-img:hover img, #install .step-2-img:focus img {
-  -webkit-transform: scale(2.3) translateX(-100px) translateY(150px);
-  transform: scale(2.3) translateX(-100px) translateY(150px);
+  -webkit-transform: scale(2.3) translateX(-100px) translateY(100px);
+  transform: scale(2.3) translateX(-100px) translateY(100px);
 }
 /*# sourceMappingURL=creative.css.map */
