@@ -11082,43 +11082,36 @@ header.masthead #scroll-down i {
   background: #5c4d42;
 }
 
-#install .step-1-img img {
+#install img {
   -webkit-transform: scale(1);
   transform: scale(1);
   z-index: -1;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
+  -webkit-transition: 0.85s;
+  transition: 0.85s;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  #install .step-1-img img {
+  #install img {
     -webkit-transition: none;
     transition: none;
   }
 }
 
-#install .step-1-img:hover, #install .step-1-img:focus {
-  -webkit-transform: scale(1.3) translateY(-50px);
-  transform: scale(1.3) translateY(-50px);
+#install .step-1-img {
+  overflow: hidden;
 }
 
-#install .step-2-img img {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  z-index: -1;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
+#install .step-1-img:hover img, #install .step-1-img:focus img {
+  -webkit-transform: scale(2.3) translateX(65px) translateY(-10px);
+  transform: scale(2.3) translateX(65px) translateY(-10px);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  #install .step-2-img img {
-    -webkit-transition: none;
-    transition: none;
-  }
+#install .step-2-img {
+  overflow: hidden;
 }
 
-#install .step-2-img:hover, #install .step-2-img:focus {
-  -webkit-transform: scale(1.3) translateY(-50px);
-  transform: scale(1.3) translateY(-50px);
+#install .step-2-img:hover img, #install .step-2-img:focus img {
+  -webkit-transform: scale(2.3) translateX(0px) translateY(-50px);
+  transform: scale(2.3) translateX(0px) translateY(-50px);
 }
 /*# sourceMappingURL=creative.css.map */
