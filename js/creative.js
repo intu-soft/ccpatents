@@ -65,11 +65,15 @@
     }
   });
 
-  document.querySelector('#share').addEventListener('click', WebShare);
+  let agent = navigator.userAgent.toLowerCase();
+  if ((navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1)) {
+  } else {
+    document.querySelector('#share').addEventListener('click', WebShare);
+  }
 
 })(jQuery); // End of use strict
 
-window.onresize = function() {
+window.onresize = function () {
   let masthead = document.querySelector('.masthead');
   masthead.style.height = window.innerHeight;
 }
