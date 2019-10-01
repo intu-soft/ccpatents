@@ -1,4 +1,6 @@
 #install {
+    overflow: hidden;
+
     img {
         -webkit-transform: scale(1.0);
         -moz-transform: scale(1.0);
@@ -10,6 +12,7 @@
 
     .step-1-img {
         overflow: hidden;
+
         &:hover,
         &:focus {
             img {
@@ -24,6 +27,7 @@
 
     .step-2-img {
         overflow: hidden;
+
         &:hover,
         &:focus {
             img {

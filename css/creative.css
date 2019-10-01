@@ -11082,6 +11082,10 @@ header.masthead #scroll-down i {
   background: #5c4d42;
 }
 
+#install {
+  overflow: hidden;
+}
+
 #install img {
   -webkit-transform: scale(1);
   transform: scale(1);
