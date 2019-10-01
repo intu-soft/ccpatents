@@ -68,7 +68,24 @@
   let agent = navigator.userAgent.toLowerCase();
   if ((navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1)) {
   } else {
-    document.querySelector('#share').addEventListener('click', WebShare);
+    document.querySelector('#share').addEventListener('click', async ()=> {
+      if (navigator.share === undefined) {
+        return;
+      }
+    
+      const title = "CCPatents";
+      const text = "무료 특허 검색 소프트웨어";
+      const url = "https://wwww.ccpatents.net";
+      try {
+        await navigator.share({
+          title,
+          text,
+          url,
+        });
+      } catch (error) {
+        return;
+      }
+    });
   }
 
 })(jQuery); // End of use strict
@@ -76,23 +93,4 @@
 window.onresize = function () {
   let masthead = document.querySelector('.masthead');
   masthead.style.height = window.innerHeight;
-}
-
-async function WebShare() {
-  if (navigator.share === undefined) {
-    return;
-  }
-
-  const title = "CCPatents";
-  const text = "무료 특허 검색 소프트웨어";
-  const url = "https://wwww.ccpatents.net";
-  try {
-    await navigator.share({
-      title,
-      text,
-      url,
-    });
-  } catch (error) {
-    return;
-  }
 }
