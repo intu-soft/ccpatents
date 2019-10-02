@@ -14,6 +14,8 @@
     }
   }
 
+  document.getElementById("share-button").style.display = "block"; 
+
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
