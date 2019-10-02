@@ -1,6 +1,19 @@
 (function ($) {
   "use strict"; // Start of use strict
 
+  let filter = "win32|win64";
+  if (navigator.platform) {
+    if (filter.indexOf(navigator.platform.toLowerCase()) < 0) { 
+      //mobile
+      document.getElementById("store-button").style.display = "none";
+    } 
+    else { 
+      //pc 
+      document.getElementById("share-button").style.display = "none"; 
+    }
+  }
+
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
