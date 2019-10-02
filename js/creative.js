@@ -5,11 +5,12 @@
   if (navigator.platform) {
     if (filter.indexOf(navigator.platform.toLowerCase()) < 0) { 
       //mobile
-      document.getElementById("store-button").style.display = "none";
+      document.getElementById("share-button").style.display = "block"; 
     } 
     else { 
       //pc 
-      document.getElementById("share-button").style.display = "none"; 
+      
+      document.getElementById("store-button").style.display = "block";
     }
   }
 
