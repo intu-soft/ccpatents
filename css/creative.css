@@ -11093,10 +11093,6 @@ header.masthead #scroll-down i {
 }
 
 #install {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
   overflow: hidden;
 }
 
@@ -11135,6 +11131,10 @@ header.masthead #scroll-down i {
 }
 
 #contact {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
   font-family: 'Varela Round', sans-serif;
   padding: 7em 0;
   position: relative;
