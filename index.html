@@ -171,7 +171,7 @@
   </section>
 
   <!-- Blog Section -->
-  <section class="pt-5" id="blog" >
+  <section class="py-5" id="blog">
     <div class="container" data-aos="fade-up">
       <h2 class="text-center mt-0">블로그</h2>
       <hr class="divider my-4">
@@ -285,29 +285,45 @@
   </section>
 
   <!-- Contact Section -->
-  <section class="py-5" id="contact">
-    <div class="container" data-aos="fade-up">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">문의</h2>
-          <hr class="divider my-4">
-          <p class="text-muted mb-5">추가하고 싶은 기능이 있거나,<br>버그 발견시 언제든지 연락주십시오.</p>
+  <section class="py-5" id="contact"">
+    <div class=" container" data-aos="fade-up">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2 class="mt-0">문의</h2>
+        <hr class="divider my-4">
+        <div class="col-lg-12 d-flex align-items-center justify-content-center">
+          <form action="https://script.google.com/macros/s/AKfycbw15FE1tciA0ToUN5xdQzkcj_SgoGam44xIMaZ82A/exec"
+            method="POST" class="pt-2 w-100 gform pure-form pure-form-stacked">
+            <div class="form-group">
+              <input name="name" class="form-control" required placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input name="email" class="form-control" type="email" required placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <input name="subject" class="form-control" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea name="message" cols="30" rows="7" class="form-control" required placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary py-3 px-5">Send Message</button>
+            </div>
+            <div class="thankyou_message" style="display:none;">
+              <h2><em>Thanks</em> for contacting us!
+                We will get back to you soon!</h2>
+            </div>
+          </form>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:admin@intu-soft.com">admin@intu-soft.com</a>
-        </div>
-      </div>
+    </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="bg-light py-5">
     <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 -CCPatents</div>
+      <div class="small text-center text-muted">Copyright 2019. CCPatents. All rights reserved.</div>
     </div>
   </footer>
 
@@ -324,6 +340,7 @@
   <script>
     AOS.init();
   </script>
+  <script data-cfasync="false" src="js/form-submission-handler.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.js"></script>
