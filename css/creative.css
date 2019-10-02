@@ -10982,8 +10982,8 @@ header.masthead #scroll-down i {
 }
 
 #blog .post:hover img, #blog .post:focus img {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+  -webkit-transform: scale(2.5);
+  transform: scale(2.5);
 }
 
 #blog .owl-carousel {
@@ -11096,6 +11096,11 @@ header.masthead #scroll-down i {
   overflow: hidden;
 }
 
+#install .important {
+  color: #f4623a;
+  font-weight: 600;
+}
+
 #install img {
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -11131,10 +11136,6 @@ header.masthead #scroll-down i {
 }
 
 #contact {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
   font-family: 'Varela Round', sans-serif;
   padding: 7em 0;
   position: relative;

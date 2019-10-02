@@ -1,6 +1,11 @@
 #install {
     overflow: hidden;
 
+    .important {
+        color: $primary;
+        font-weight: 600;
+    }
+
     img {
         -webkit-transform: scale(1.0);
         -moz-transform: scale(1.0);
