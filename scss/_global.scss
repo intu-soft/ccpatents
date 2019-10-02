@@ -17,6 +17,13 @@ hr.divider {
   border-color: $primary;
 }
 
+h2{
+  .divider-v {
+      color: $primary;
+      font-weight: 500;
+  }
+}
+
 hr.light {
   border-color: $white;
 }

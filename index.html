@@ -265,7 +265,7 @@
   <!-- Install Section -->
   <section id="install">
     <div class="container-fluid p-0">
-      <div class="row no-gutters pt-2">
+      <div class="row no-gutters">
         <div class="col-lg-6 order-2 order-lg-1 step-1-img" data-aos="fade-right">
           <img class="w-100" src="img/install/1.png" alt="">
         </div>
@@ -284,38 +284,45 @@
   </section>
 
   <!-- Contact Section -->
-  <section class="py-5" id="contact"">
-    <div class=" container" data-aos="fade-up">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center">
-        <h2 class="mt-0">문의</h2>
-        <hr class="divider my-4">
-        <div class="col-lg-12 d-flex align-items-center justify-content-center">
-          <form action="https://script.google.com/macros/s/AKfycbw15FE1tciA0ToUN5xdQzkcj_SgoGam44xIMaZ82A/exec"
-            method="POST" class="pt-2 w-100 gform pure-form pure-form-stacked">
-            <div class="form-group">
-              <input name="name" class="form-control" required placeholder="Your Name">
+  <section class="img" id="contact">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-md-6 col-lg-5 d-flex" data-aos="fade-right">
+          <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(img/contact.jpg);">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-7 pl-lg-5" data-aos="fade-left">
+          <div class="pt-5">
+            <div class="row justify-content-start pb-3">
+              <div class="col-lg-8">
+                <h2><span class="divider-v">|</span> <span>문의</span></h2>
+                <p>작성중..</p>
+                <div>
+                  <form action="https://script.google.com/macros/s/AKfycbw15FE1tciA0ToUN5xdQzkcj_SgoGam44xIMaZ82A/exec"
+                    method="POST" class="pt-2 w-100 gform pure-form pure-form-stacked">
+                    <div class="form-group">
+                      <input name="name" class="form-control" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                      <input name="email" class="form-control" type="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                      <input name="subject" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                      <textarea name="message" cols="30" rows="7" class="form-control" required
+                        placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <button class="btn btn-primary py-3 px-5">Send Message</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
-            <div class="form-group">
-              <input name="email" class="form-control" type="email" required placeholder="Your Email">
-            </div>
-            <div class="form-group">
-              <input name="subject" class="form-control" placeholder="Subject">
-            </div>
-            <div class="form-group">
-              <textarea name="message" cols="30" rows="7" class="form-control" required placeholder="Message"></textarea>
-            </div>
-            <div class="form-group">
-              <button class="btn btn-primary py-3 px-5">Send Message</button>
-            </div>
-            <div class="thankyou_message" style="display:none;">
-              <h2><em>Thanks</em> for contacting us!
-                We will get back to you soon!</h2>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
-    </div>
     </div>
   </section>
 
