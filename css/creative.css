@@ -11086,6 +11086,11 @@ header.masthead #scroll-down i {
   overflow: hidden;
 }
 
+#install h2 .divider-v {
+  color: #f4623a;
+  font-weight: 500;
+}
+
 #install img {
   -webkit-transform: scale(1);
   transform: scale(1);

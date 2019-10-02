@@ -1,6 +1,13 @@
 #install {
     overflow: hidden;
 
+    h2{
+        .divider-v {
+            color: $primary;
+            font-weight: 500;
+        }
+    }
+
     img {
         -webkit-transform: scale(1.0);
         -moz-transform: scale(1.0);
