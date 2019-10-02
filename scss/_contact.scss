@@ -1,5 +1,42 @@
 #contact {
+    font-family: 'Varela Round', sans-serif;
 
+    input {
+        font-size: 15px;
+    }
+    input::placeholder {
+        font-size: 15px;
+        opacity: 1; /* 파이어폭스에서 뿌옇게 나오는 현상을 방지하기 위한 css */
+    }
+    input::-webkit-input-placeholder {
+        font-size: 15px;
+    }
+    input::-moz-placeholder {
+        font-size: 15px;
+    }
+    input:-ms-input-placeholder {
+        font-size: 15px;
+    }
+    input:-moz-placeholder {
+        font-size: 15px;
+    }
+
+    text-area {
+        font-size: 15px;
+    }
+    textarea::placeholder {
+        font-size: 15px;
+        opacity: 1; /* 파이어폭스에서 뿌옇게 나오는 현상을 방지하기 위한 css */
+      }
+      textarea::-webkit-input-placeholder {
+        font-size: 15px;
+      }
+      textarea:-ms-input-placeholder {
+        font-size: 15px;
+      }
+      textarea:-mos-input-placeholder {
+        font-size: 15px;
+      }
 
     // padding: 6em 0;
     @include media-breakpoint-down(lg) {
@@ -64,5 +101,10 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 10px 15px !important;
     }
 }

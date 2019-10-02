@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10727,7 +10728,7 @@ header.masthead #scroll-down:hover {
 
 header.masthead #scroll-down p {
   font-family: 'Varela Round', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 20px;
   margin-bottom: 5px;
 }
@@ -11130,10 +11131,95 @@ header.masthead #scroll-down i {
 }
 
 #contact {
+  font-family: 'Varela Round', sans-serif;
   padding: 7em 0;
   position: relative;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+}
+
+#contact input {
+  font-size: 15px;
+}
+
+#contact input::-webkit-input-placeholder {
+  font-size: 15px;
+  opacity: 1;
+  /* 파이어폭스에서 뿌옇게 나오는 현상을 방지하기 위한 css */
+}
+
+#contact input:-ms-input-placeholder {
+  font-size: 15px;
+  opacity: 1;
+  /* 파이어폭스에서 뿌옇게 나오는 현상을 방지하기 위한 css */
+}
+
+#contact input::-ms-input-placeholder {
+  font-size: 15px;
+  opacity: 1;
+  /* 파이어폭스에서 뿌옇게 나오는 현상을 방지하기 위한 css */
+}
+
+#contact input::placeholder {
+  font-size: 15px;
+  opacity: 1;
+  /* 파이어폭스에서 뿌옇게 나오는 현상을 방지하기 위한 css */
+}
+
+#contact input::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+#contact input::-moz-placeholder {
+  font-size: 15px;
+}
+
+#contact input:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+#contact input:-moz-placeholder {
+  font-size: 15px;
+}
+
+#contact text-area {
+  font-size: 15px;
+}
+
+#contact textarea::-webkit-input-placeholder {
+  font-size: 15px;
+  opacity: 1;
+  /* 파이어폭스에서 뿌옇게 나오는 현상을 방지하기 위한 css */
+}
+
+#contact textarea:-ms-input-placeholder {
+  font-size: 15px;
+  opacity: 1;
+  /* 파이어폭스에서 뿌옇게 나오는 현상을 방지하기 위한 css */
+}
+
+#contact textarea::-ms-input-placeholder {
+  font-size: 15px;
+  opacity: 1;
+  /* 파이어폭스에서 뿌옇게 나오는 현상을 방지하기 위한 css */
+}
+
+#contact textarea::placeholder {
+  font-size: 15px;
+  opacity: 1;
+  /* 파이어폭스에서 뿌옇게 나오는 현상을 방지하기 위한 css */
+}
+
+#contact textarea::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+#contact textarea:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+#contact textarea:-mos-input-placeholder {
+  font-size: 15px;
 }
 
 @media (max-width: 1199.98px) {
@@ -11194,5 +11280,10 @@ header.masthead #scroll-down i {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+#contact button {
+  font-size: 20px;
+  padding: 10px 15px !important;
 }
 /*# sourceMappingURL=creative.css.map */
