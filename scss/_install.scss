@@ -45,4 +45,9 @@
 
         }
     }
+
+    font-size: 1.15rem;
+    @include media-breakpoint-down(lg) {
+        font-size: 0.85rem;
+    }
 }
