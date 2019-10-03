@@ -11140,16 +11140,6 @@ header.masthead #scroll-down i {
   transform: scale(2.3) translateX(-100px) translateY(100px);
 }
 
-#install .desc1 {
-  background-image: url("../img/install/blackboard.jpg");
-  background-color: rgba(0, 0, 0, 0.5);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  color: white;
-}
-
 #contact {
   font-family: 'Varela Round', sans-serif;
   padding: 7em 0;
