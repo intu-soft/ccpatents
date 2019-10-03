@@ -2,6 +2,7 @@
     overflow: hidden;
     font-family: 'Varela Round', sans-serif;
     color: #454545;
+    word-break: keep-all;
 
     h2, h3, h4 {
         color: black;
@@ -9,6 +10,15 @@
 
     p {
         font-size: 18px;
+    }
+
+    @include media-breakpoint-down(sm){
+        h3, h4 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 15px;
+        }
     }
 
     .important {
