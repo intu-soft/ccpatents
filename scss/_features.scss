@@ -1,41 +1,32 @@
-#features {
-	.nav-link-wrap {
+#features{
+    .nav-link-wrap{
 		background: $primary;
-
 		// @include gradient-background();
-		@include media-breakpoint-up(md) {
+		@include media-breakpoint-up(md){
 			margin-bottom: -60px;
 			z-index: 1;
 		}
-
-		@include media-breakpoint-down(sm) {
+		@include media-breakpoint-down(sm){
 			background: $primary;
 			margin-top: 30px;
 		}
-	}
-
-	.nav-pills {
-		p {
+    }
+    .nav-pills{
+		p{
 			margin-bottom: 0;
 		}
-
-		.nav-link {
+		.nav-link{
 			float: left;
 			border-radius: 0;
 			margin-bottom: 0;
-			color: rgba(255, 255, 255, .8);
-			font-size: 1.15rem;
+			color: rgba(255,255,255,.8);
+			font-size: 18px;
 			font-weight: 400;
 			position: relative;
 			font-family: 'Varela Round', sans-serif;
-
-			@include media-breakpoint-down(lg) {
-				font-size: 1.0rem;
-			}
-
-			&:after {
+			&:after{
 				position: absolute;
-				top: 1.25rem;
+				top: 20px;
 				bottom: 10px;
 				right: 0;
 				width: 0;
@@ -45,66 +36,45 @@
 				border-width: 10px 10px 10px 0;
 				border-color: transparent #fafafa transparent transparent;
 				opacity: 0;
-
-				@include media-breakpoint-down(lg) {
-					font-size: 1.1rem;
-				}
 			}
-
-			span {
-				font-size: 1.4rem;
+			span{
+				font-size: 24px;
 				margin-right: 5px;
-				color: rgba(255, 255, 255, .8);
-
-				@include media-breakpoint-down(lg) {
-					font-size: 1.25rem;
-				}
+				color: rgba(255,255,255,.8);
 			}
-
-			&.active,
-			&:hover {
+			&.active, &:hover{
 				color: $white;
-				font-size: 1.25rem;
+				font-size: 20px;
 				// background: #333644;
 				@include transition(.3s);
 				background: transparent;
 				font-weight: 700;
-
-				@include media-breakpoint-down(lg) {
-					font-size: 1.1rem;
-				}
-
-				&:after {
+				&:after{
 					opacity: 1;
 				}
-
-				span {
+				span{
 					color: $white;
 				}
-
-				@include media-breakpoint-down(sm) {
-					&:after {
+				@include media-breakpoint-down(sm){
+					&:after{
 						opacity: 0;
 					}
 				}
 			}
-
-			@include media-breakpoint-down(sm) {
+			@include media-breakpoint-down(sm){
 				display: block;
 				width: 100%;
 			}
 		}
 	}
-
-	.tab-content {
-		.tab-pane {
-			.icon {
+	.tab-content{
+		.tab-pane{
+			.icon{
 				font-size: 100px;
 				color: $black;
 				line-height: 1.2;
 			}
-
-			h2 {
+			h2{
 				// font-size: px;
 			}
 		}

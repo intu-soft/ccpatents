@@ -30,22 +30,14 @@ header.masthead {
     p {
       font-family: 'Varela Round', sans-serif;
       font-weight: 600;
-      font-size: 1.2rem;
+      font-size: 20px;
       margin-bottom: 5px;
-
-      @include media-breakpoint-down(lg) {
-        font-size: 1.0rem;
-      }
     }
 
     i {
-      font-size: 1.1rem;
+      font-size: 18px;
       -webkit-animation: mover 0.5s infinite alternate;
       animation: mover 0.5s infinite alternate;
-
-      @include media-breakpoint-down(lg) {
-        font-size: 0.9rem;
-      }
 
       @-webkit-keyframes mover {
         0% {
@@ -78,7 +70,6 @@ header.masthead {
     p {
       font-size: 1.15rem;
     }
-
     h1 {
       font-size: 3rem;
     }
