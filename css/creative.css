@@ -10729,26 +10729,14 @@ header.masthead #scroll-down:hover {
 header.masthead #scroll-down p {
   font-family: 'Varela Round', sans-serif;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 20px;
   margin-bottom: 5px;
 }
 
-@media (max-width: 1199.98px) {
-  header.masthead #scroll-down p {
-    font-size: 1.0rem;
-  }
-}
-
 header.masthead #scroll-down i {
-  font-size: 1.1rem;
+  font-size: 18px;
   -webkit-animation: mover 0.5s infinite alternate;
   animation: mover 0.5s infinite alternate;
-}
-
-@media (max-width: 1199.98px) {
-  header.masthead #scroll-down i {
-    font-size: 0.9rem;
-  }
 }
 
 @-webkit-keyframes mover {
@@ -10827,21 +10815,15 @@ header.masthead #scroll-down i {
   border-radius: 0;
   margin-bottom: 0;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 1.15rem;
+  font-size: 18px;
   font-weight: 400;
   position: relative;
   font-family: 'Varela Round', sans-serif;
 }
 
-@media (max-width: 1199.98px) {
-  #features .nav-pills .nav-link {
-    font-size: 1.0rem;
-  }
-}
-
 #features .nav-pills .nav-link:after {
   position: absolute;
-  top: 1.25rem;
+  top: 20px;
   bottom: 10px;
   right: 0;
   width: 0;
@@ -10853,27 +10835,15 @@ header.masthead #scroll-down i {
   opacity: 0;
 }
 
-@media (max-width: 1199.98px) {
-  #features .nav-pills .nav-link:after {
-    font-size: 1.1rem;
-  }
-}
-
 #features .nav-pills .nav-link span {
-  font-size: 1.4rem;
+  font-size: 24px;
   margin-right: 5px;
   color: rgba(255, 255, 255, 0.8);
 }
 
-@media (max-width: 1199.98px) {
-  #features .nav-pills .nav-link span {
-    font-size: 1.25rem;
-  }
-}
-
 #features .nav-pills .nav-link.active, #features .nav-pills .nav-link:hover {
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 20px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background: transparent;
@@ -10884,12 +10854,6 @@ header.masthead #scroll-down i {
   #features .nav-pills .nav-link.active, #features .nav-pills .nav-link:hover {
     -webkit-transition: none;
     transition: none;
-  }
-}
-
-@media (max-width: 1199.98px) {
-  #features .nav-pills .nav-link.active, #features .nav-pills .nav-link:hover {
-    font-size: 1.1rem;
   }
 }
 
@@ -11131,7 +11095,10 @@ header.masthead #scroll-down i {
 #install {
   overflow: hidden;
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.15rem;
+}
+
+#install p {
+  font-size: 18px;
 }
 
 #install .important {
@@ -11173,10 +11140,13 @@ header.masthead #scroll-down i {
   transform: scale(2.3) translateX(-100px) translateY(100px);
 }
 
-@media (max-width: 1199.98px) {
-  #install {
-    font-size: 0.85rem;
-  }
+#install .desc1 {
+  background: url("../img/install/blackboard.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  color: white;
 }
 
 #contact {

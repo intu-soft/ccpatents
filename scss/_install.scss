@@ -2,6 +2,10 @@
     overflow: hidden;
     font-family: 'Varela Round', sans-serif;
 
+    p {
+        font-size: 18px;
+    }
+
     .important {
         color: $primary;
         font-weight: 600;
@@ -32,7 +36,7 @@
 
     .step-2-img {
         overflow: hidden;
-        background-color: #ececec; 
+        background-color: #ececec;
 
         &:hover,
         &:focus {
@@ -46,8 +50,14 @@
         }
     }
 
-    font-size: 1.15rem;
-    @include media-breakpoint-down(lg) {
-        font-size: 0.85rem;
+    .desc1 {
+        background: url('../img/install/blackboard.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        color: white;
     }
+
+    .desc2 {}
 }
