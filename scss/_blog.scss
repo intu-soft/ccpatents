@@ -1,5 +1,10 @@
 #blog {
-    margin-top: 3.8rem;
+    margin-top: 0.35rem;
+
+    position: relative;
+	display: block;
+	width: 100%;
+	overflow-x: hidden;
 
     .post {
         position: relative;
