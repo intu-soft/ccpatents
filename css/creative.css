@@ -11095,6 +11095,11 @@ header.masthead #scroll-down i {
 #install {
   overflow: hidden;
   font-family: 'Varela Round', sans-serif;
+  color: #454545;
+}
+
+#install h2, #install h3, #install h4 {
+  color: black;
 }
 
 #install p {
