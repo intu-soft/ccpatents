@@ -17,7 +17,7 @@
         .img {
             position: relative;
             overflow: hidden;
-            border: 2px dashed rgba(207, 207, 207, 0.7);
+            border: 2px dashed rgba(231, 231, 231, 0.7);
             @include border-radius(0px);
             -webkit-box-shadow: 0px 42px 29px -31px rgba(0, 0, 0, 0.05);
             -moz-box-shadow: 0px 42px 29px -31px rgba(0, 0, 0, 0.05);
@@ -25,7 +25,7 @@
 
             &:hover,
             &:focus {
-                border: 1px dashed rgba(207, 207, 207, 0.7);
+                border: 2px dashed rgba(240, 239, 239, 0.7);
             }
         }
 
