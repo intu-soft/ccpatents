@@ -8,6 +8,11 @@
 		}
 	}
 
+	important {
+		color: $primary;
+		font-weight: 600;
+	}
+
     .nav-link-wrap{
 		background: $primary;
 		// @include gradient-background();

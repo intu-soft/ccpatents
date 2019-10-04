@@ -10796,6 +10796,11 @@ header.masthead #scroll-down i {
   cursor: pointer;
 }
 
+#features important {
+  color: #f4623a;
+  font-weight: 600;
+}
+
 #features .nav-link-wrap {
   background: #f4623a;
 }
