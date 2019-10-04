@@ -79,6 +79,9 @@
     }
   });
 
+  $('.popup-img').popupimg();
+
+
   document.querySelector('#share').addEventListener('click', WebShare);
 })(jQuery); // End of use strict
 
@@ -93,9 +96,10 @@ async function WebShare() {
   const url = "https://wwww.ccpatents.net";
   try {
     await navigator.share({
-      title,
-      text,
-      url,
+      titlie: title,
+      text: text,
+      url: url,
+      image: "https://www.ccpatents.net/img/blog/post-1.png"
     });
   } catch (error) {
     return;

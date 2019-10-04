@@ -1,4 +1,13 @@
 #features{
+	word-break: keep-all;
+
+	.popup-img {
+		&:hover,
+		&:focus {
+			cursor: pointer;
+		}
+	}
+
     .nav-link-wrap{
 		background: $primary;
 		// @include gradient-background();
@@ -69,14 +78,12 @@
 	}
 	.tab-content{
 		.tab-pane{
-			.icon{
-				font-size: 100px;
-				color: $black;
-				line-height: 1.2;
-			}
-			h2{
-				// font-size: px;
-			}
+			font-family: 'Varela Round', sans-serif;
+			color: #292929;
+		}
+
+		.btn {
+			font-size: 20px;
 		}
 	}
 }

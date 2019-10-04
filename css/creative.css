@@ -10788,6 +10788,14 @@ header.masthead #scroll-down i {
   }
 }
 
+#features {
+  word-break: keep-all;
+}
+
+#features .popup-img:hover, #features .popup-img:focus {
+  cursor: pointer;
+}
+
 #features .nav-link-wrap {
   background: #f4623a;
 }
@@ -10878,18 +10886,17 @@ header.masthead #scroll-down i {
   }
 }
 
-#features .tab-content .tab-pane .icon {
-  font-size: 100px;
-  color: #000;
-  line-height: 1.2;
+#features .tab-content .tab-pane {
+  font-family: 'Varela Round', sans-serif;
+  color: #292929;
+}
+
+#features .tab-content .btn {
+  font-size: 20px;
 }
 
 #blog {
   margin-top: 0.35rem;
-  position: relative;
-  display: block;
-  width: 100%;
-  overflow-x: hidden;
 }
 
 #blog .post {
