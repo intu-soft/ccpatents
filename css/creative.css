@@ -10801,6 +10801,11 @@ header.masthead #scroll-down i {
   font-weight: 600;
 }
 
+#features important-b {
+  color: black;
+  font-weight: 600;
+}
+
 #features .nav-link-wrap {
   background: #f4623a;
 }
@@ -11139,6 +11144,11 @@ header.masthead #scroll-down i {
 
 #install .important {
   color: #f4623a;
+  font-weight: 600;
+}
+
+#install important-b {
+  color: black;
   font-weight: 600;
 }
 
