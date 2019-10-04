@@ -96,9 +96,10 @@ async function WebShare() {
   const url = "https://wwww.ccpatents.net";
   try {
     await navigator.share({
-      title,
-      text,
-      url,
+      title: title,
+      text: text,
+      url: url,
+      image: "https://www.ccpatents.net/img/features/1.png",
     });
   } catch (error) {
     return;
