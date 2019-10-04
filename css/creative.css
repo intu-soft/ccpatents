@@ -10727,7 +10727,7 @@ header.masthead #scroll-down:hover {
 }
 
 header.masthead #scroll-down p {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 5px;
@@ -10836,7 +10836,7 @@ header.masthead #scroll-down i {
   font-size: 18px;
   font-weight: 400;
   position: relative;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #features .nav-pills .nav-link:after {
@@ -10897,7 +10897,7 @@ header.masthead #scroll-down i {
 }
 
 #features .tab-content .tab-pane {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #292929;
 }
 
@@ -10907,6 +10907,7 @@ header.masthead #scroll-down i {
 
 #blog {
   margin-top: 0.35rem;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #blog .post {
@@ -11120,7 +11121,7 @@ header.masthead #scroll-down i {
 
 #install {
   overflow: hidden;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #454545;
   word-break: keep-all;
 }
@@ -11187,7 +11188,7 @@ header.masthead #scroll-down i {
 }
 
 #contact {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   padding: 7em 0;
   position: relative;
   padding-top: 0 !important;
