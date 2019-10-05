@@ -71,6 +71,11 @@
         if (xhr.readyState === 4 && xhr.status === 200) {
           form.reset();
           enableAllButtons(form);
+          nativeToast({
+            message: '보내기 성공',
+            edge: false,
+            debug: false
+          })
           /*var formElements = form.querySelector(".form-elements")
           if (formElements) {
             formElements.style.display = "none"; // hide form
