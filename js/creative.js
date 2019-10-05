@@ -99,7 +99,7 @@ async function WebShare() {
       title: title,
       text: text,
       url: url,
-      image: "https://www.ccpatents.net/img/features/1.png",
+      image: "../img/features/1.png",
     });
   } catch (error) {
     return;
