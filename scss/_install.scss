@@ -61,10 +61,10 @@
         &:hover,
         &:focus {
             img {
-                -webkit-transform: scale(2.3) translateX(-100px) translateY(100px);
-                -moz-transform: scale(2.3) translateX(-100px) translateY(100px);
-                -o-transform: scale(2.3) translateX(-100px) translateY(100px);
-                transform: scale(2.3) translateX(-100px) translateY(100px);
+                -webkit-transform: scale(2.3) translateX(-100px) translateY(75px);
+                -moz-transform: scale(2.3) translateX(-100px) translateY(75);
+                -o-transform: scale(2.3) translateX(-100px) translateY(75);
+                transform: scale(2.3) translateX(-100px) translateY(75);
             }
 
         }
