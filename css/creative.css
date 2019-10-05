@@ -10763,7 +10763,7 @@ header.masthead #scroll-down i {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
+    height: 105vh;
     min-height: 40rem;
     padding-top: 72px;
     padding-bottom: 0;
