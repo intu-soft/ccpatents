@@ -10710,7 +10710,7 @@ header.masthead {
 
 header.masthead p {
   font-size: 1.0rem;
-  font-family: 'Sunflower', sans-serif;
+  font-family: 'Gothic+A1', sans-serif;
 }
 
 header.masthead h1 {
@@ -10836,7 +10836,7 @@ header.masthead #scroll-down i {
   font-size: 18px;
   font-weight: 500;
   position: relative;
-  font-family: 'Sunflower', sans-serif;
+  font-family: 'Gothic+A1', sans-serif;
 }
 
 #features .nav-pills .nav-link:after {
@@ -10897,7 +10897,7 @@ header.masthead #scroll-down i {
 }
 
 #features .tab-content .tab-pane {
-  font-family: 'Sunflower', sans-serif;
+  font-family: 'Gothic+A1', sans-serif;
   color: #292929;
 }
 
@@ -10907,7 +10907,7 @@ header.masthead #scroll-down i {
 
 #blog {
   margin-top: 0.35rem;
-  font-family: 'Sunflower', sans-serif;
+  font-family: 'Gothic+A1', sans-serif;
 }
 
 #blog .post {
@@ -11121,7 +11121,7 @@ header.masthead #scroll-down i {
 
 #install {
   overflow: hidden;
-  font-family: 'Sunflower', sans-serif;
+  font-family: 'Gothic+A1', sans-serif;
   color: #454545;
   word-break: keep-all;
 }
@@ -11175,7 +11175,7 @@ header.masthead #scroll-down i {
 }
 
 #contact {
-  font-family: 'Sunflower', sans-serif;
+  font-family: 'Gothic+A1', sans-serif;
   padding: 7em 0;
   position: relative;
   padding-top: 0 !important;
