@@ -10710,6 +10710,7 @@ header.masthead {
 
 header.masthead p {
   font-size: 1.0rem;
+  font-family: 'Varela Round', sans-serif;
 }
 
 header.masthead h1 {
@@ -10727,7 +10728,6 @@ header.masthead #scroll-down:hover {
 }
 
 header.masthead #scroll-down p {
-  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 5px;
