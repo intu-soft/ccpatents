@@ -1,6 +1,6 @@
 #install {
     overflow: hidden;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Sunflower', sans-serif;
     color: #454545;
     word-break: keep-all;
 
@@ -9,15 +9,13 @@
     }
 
     p {
-        font-size: 18px;
     }
 
     @include media-breakpoint-down(sm){
         h3, h4 {
-            font-size: 18px;
         }
         p {
-            font-size: 15px;
+            font-size: 0.9rem;
         }
     }
 

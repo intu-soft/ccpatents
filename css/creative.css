@@ -10834,9 +10834,9 @@ header.masthead #scroll-down i {
   margin-bottom: 0;
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   position: relative;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Sunflower', sans-serif;
 }
 
 #features .nav-pills .nav-link:after {
@@ -10897,7 +10897,7 @@ header.masthead #scroll-down i {
 }
 
 #features .tab-content .tab-pane {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Sunflower', sans-serif;
   color: #292929;
 }
 
@@ -10907,7 +10907,7 @@ header.masthead #scroll-down i {
 
 #blog {
   margin-top: 0.35rem;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Sunflower', sans-serif;
 }
 
 #blog .post {
@@ -11121,7 +11121,7 @@ header.masthead #scroll-down i {
 
 #install {
   overflow: hidden;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Sunflower', sans-serif;
   color: #454545;
   word-break: keep-all;
 }
@@ -11130,16 +11130,9 @@ header.masthead #scroll-down i {
   color: black;
 }
 
-#install p {
-  font-size: 18px;
-}
-
 @media (max-width: 767.98px) {
-  #install h3, #install h4 {
-    font-size: 18px;
-  }
   #install p {
-    font-size: 15px;
+    font-size: 0.9rem;
   }
 }
 
@@ -11188,7 +11181,7 @@ header.masthead #scroll-down i {
 }
 
 #contact {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Sunflower', sans-serif;
   padding: 7em 0;
   position: relative;
   padding-top: 0 !important;
