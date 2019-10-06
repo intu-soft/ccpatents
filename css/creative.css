@@ -11130,12 +11130,6 @@ header.masthead #scroll-down i {
   color: black;
 }
 
-@media (max-width: 767.98px) {
-  #install p {
-    font-size: 0.9rem;
-  }
-}
-
 #install .important {
   color: #f4623a;
   font-weight: 600;

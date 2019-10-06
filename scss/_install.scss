@@ -8,17 +8,6 @@
         color: black;
     }
 
-    p {
-    }
-
-    @include media-breakpoint-down(sm){
-        h3, h4 {
-        }
-        p {
-            font-size: 0.9rem;
-        }
-    }
-
     .important {
         color: $primary;
         font-weight: 600;
