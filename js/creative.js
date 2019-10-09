@@ -14,7 +14,6 @@
     }
   }
 
-
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -81,12 +80,13 @@
 
   $('.popup-img').popupimg();
 
-
   document.querySelector('#share').addEventListener('click', WebShare);
 })(jQuery); // End of use strict
 
 
-async function WebShare() {
+async function WebShare(_url) {
+  gtag_report_conversion(_url);
+
   if (navigator.share === undefined) {
     return;
   }
@@ -103,4 +103,17 @@ async function WebShare() {
   } catch (error) {
     return;
   }
+}
+
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-723157723/kkcmCJuytK4BENuF6tgC',
+      'event_callback': callback
+  });
+  return false;
 }
