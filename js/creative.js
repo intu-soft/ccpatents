@@ -84,8 +84,8 @@
 })(jQuery); // End of use strict
 
 
-async function WebShare(_url) {
-  gtag_report_conversion(_url);
+async function WebShare() {
+  gtag_report_conversion();
 
   if (navigator.share === undefined) {
     return;
@@ -105,15 +105,9 @@ async function WebShare(_url) {
   }
 }
 
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
+function gtag_report_conversion() {
   gtag('event', 'conversion', {
       'send_to': 'AW-723157723/kkcmCJuytK4BENuF6tgC',
-      'event_callback': callback
   });
   return false;
 }
