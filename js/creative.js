@@ -85,12 +85,6 @@
 
 
 async function WebShare() {
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-723157723');
-
   if (navigator.share === undefined) {
     return;
   }
@@ -107,17 +101,4 @@ async function WebShare() {
   } catch (error) {
     return;
   }
-}
-
-function gtag_report_conversion() {
-  
-  gtag('event', 'conversion', {
-      'send_to': 'AW-723157723/kkcmCJuytK4BENuF6tgC',
-  });
-  return false;
-
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-723157723');
 }
