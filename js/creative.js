@@ -53,8 +53,7 @@
   $(window).scroll(navbarCollapse);
 
   $(".youtube-popup").grtyoutube();
-  let video_button = document.getElementById('play_video'); // header 객체에 onclick 이벤트 속성을 연결 
-  video_button.onclick = function() { 
+  document.getElementById('play_video').onclick = function() { 
     gtag('event', 'play_video', {
       'event_category': 'button'
     });
@@ -86,7 +85,19 @@
 
   $('.popup-img').popupimg();
 
-  document.querySelector('#share').addEventListener('click', WebShare);
+  //document.querySelector('#share').addEventListener('click', WebShare);
+  document.getElementById('play_video').onclick = function() { 
+    gtag('event', 'share', {
+      'event_category': 'button'
+    });
+    WebShare();
+  }
+
+  document.getElementById('store').onclick = function() { 
+    gtag('event', 'click_store', {
+      'event_category': 'button'
+    });
+  }
 })(jQuery); // End of use strict
 
 
