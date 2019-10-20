@@ -55,9 +55,8 @@
   $(".youtube-popup").grtyoutube();
   var header = document.getElementById('play_video'); // header 객체에 onclick 이벤트 속성을 연결 
   header.onclick = function() { 
-    gtag('event', '동영상_재생', {
-      'event_category': 'button',
-      'event_action': 'play_video'
+    gtag('event', 'play_video', {
+      'event_category': 'button'
     })
   }
 
