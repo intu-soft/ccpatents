@@ -86,7 +86,7 @@
   $('.popup-img').popupimg();
 
   //document.querySelector('#share').addEventListener('click', WebShare);
-  document.getElementById('play_video').onclick = function() { 
+  document.getElementById('share').onclick = function() { 
     gtag('event', 'share', {
       'event_category': 'button'
     });
