@@ -53,14 +53,12 @@
   $(window).scroll(navbarCollapse);
 
   $(".youtube-popup").grtyoutube();
-  var header = document.getElementById('play_video'); // header 객체에 onclick 이벤트 속성을 연결 
-  header.onclick = function() { 
+  let video_button = document.getElementById('play_video'); // header 객체에 onclick 이벤트 속성을 연결 
+  video_button.onclick = function() { 
     gtag('event', 'play_video', {
       'event_category': 'button'
-    })
+    });
   }
-
-
 
   $('.carousel-posts').owlCarousel({
     autoplay: false,
