@@ -98,6 +98,12 @@
       'event_category': 'button'
     });
   }
+
+  setTimeout(function () {
+    gtag('event', 'timeout_30s', {
+      'event_category': 'timeout'
+    });
+  }, 30000);
 })(jQuery); // End of use strict
 
 
