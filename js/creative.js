@@ -100,10 +100,10 @@
   }
 
   setTimeout(function () {
-    gtag('event', 'timeout_30s', {
+    gtag('event', 'timeout_45s', {
       'event_category': 'timeout'
     });
-  }, 30000);
+  }, 45000);
 })(jQuery); // End of use strict
 
 
