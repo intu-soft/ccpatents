@@ -61,6 +61,10 @@ header.masthead {
     }
   }
 
+  @include media-breakpoint-down(md) {
+    padding-top: 6.5rem !important;
+  }
+
   @include media-breakpoint-up(lg) {
     height: 105vh;
     min-height: 40rem;
