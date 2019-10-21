@@ -41,7 +41,7 @@
             bottom: 0;
             padding: 1em 0;
             background: rgba(255, 255, 255, .9);
-            background: $primary;
+            background: $secondary;
             opacity: 0;
 
             @include transition(.6s);
@@ -198,7 +198,7 @@
             background: rgba(0, 0, 0, .1);
 
             &.active {
-                background: $secondary;
+                background: $primary;
             }
         }
     }
