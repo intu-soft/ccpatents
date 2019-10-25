@@ -115,7 +115,7 @@ async function WebShare() {
   }
 
   const title = "CCPatents";
-  const text = "무료 특허 검색 소프트웨어";
+  const text = "무료! 특허 검색식 자동화 프로그램";
   const url = "https://www.ccpatents.net";
   try {
     await navigator.share({
