@@ -52,7 +52,8 @@
   $(window).scroll(navbarCollapse);
 
   $(".youtube-popup").grtyoutube({
-    autoPlay: true
+    autoPlay: true,
+    theme:"light"
   });
   document.getElementById('play_video').onclick = function () {
     gtag('event', 'play_video', {
