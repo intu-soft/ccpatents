@@ -3,13 +3,12 @@
 
   let filter = "win32|win64";
   if (navigator.platform) {
-    if (filter.indexOf(navigator.platform.toLowerCase()) < 0) { 
+    if (filter.indexOf(navigator.platform.toLowerCase()) < 0) {
       //mobile
-      document.getElementById("share-button").style.display = "block"; 
-    } 
-    else { 
+      document.getElementById("share-button").style.display = "block";
+    } else {
       //pc 
-      
+
       document.getElementById("store-button").style.display = "block";
     }
   }
@@ -52,8 +51,10 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  $(".youtube-popup").grtyoutube();
-  document.getElementById('play_video').onclick = function() { 
+  $(".youtube-popup").grtyoutube({
+    autoPlay: true
+  });
+  document.getElementById('play_video').onclick = function () {
     gtag('event', 'play_video', {
       'event_category': 'button'
     });
@@ -86,14 +87,14 @@
   $('.popup-img').popupimg();
 
   //document.querySelector('#share').addEventListener('click', WebShare);
-  document.getElementById('share').onclick = function() { 
+  document.getElementById('share').onclick = function () {
     gtag('event', 'share', {
       'event_category': 'button'
     });
     WebShare();
   }
 
-  document.getElementById('store').onclick = function() { 
+  document.getElementById('store').onclick = function () {
     gtag('event', 'click_store', {
       'event_category': 'button'
     });
