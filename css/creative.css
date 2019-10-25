@@ -10708,6 +10708,14 @@ header.masthead {
   background-size: cover;
 }
 
+header.masthead .important {
+  color: #555555;
+  background-color: #ffd300;
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 3px 4px 4px 3px;
+}
+
 header.masthead p {
   font-size: 1.0rem;
   font-family: 'Gothic+A1', sans-serif;
@@ -10803,13 +10811,10 @@ header.masthead #scroll-down i {
 }
 
 #features important {
-  color: #ff7f00;
+  color: #555555;
+  background-color: #ffd300;
   font-weight: bold;
-}
-
-#features important-b {
-  color: black;
-  font-weight: bold;
+  border-radius: 2px;
 }
 
 #features .nav-link-wrap {

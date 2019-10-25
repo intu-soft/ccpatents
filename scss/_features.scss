@@ -9,13 +9,10 @@
 	}
 
 	important {
-		color: $primary;
+		color: $dark;
+		background-color: $gold;
 		font-weight: bold;
-	}
-
-	important-b {
-		color: black;
-		font-weight: bold;
+		border-radius: 2px;
 	}
 
     .nav-link-wrap{
