@@ -9,13 +9,17 @@
     }
 
     .important {
-        color: $primary;
-        font-weight: bold;
+        color: $dark;
+		background-color: $gold;
+		font-weight: bold;
+		border-radius: 2px;
     }
 
     important {
-        color: $primary;
-        font-weight: bold;
+        color: $dark;
+		background-color: $gold;
+		font-weight: bold;
+		border-radius: 2px;
     }
 
     img {

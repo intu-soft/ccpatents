@@ -11149,13 +11149,17 @@ header.masthead #scroll-down i {
 }
 
 #install .important {
-  color: #ff7f00;
+  color: #555555;
+  background-color: #ffd300;
   font-weight: bold;
+  border-radius: 2px;
 }
 
 #install important {
-  color: #ff7f00;
+  color: #555555;
+  background-color: #ffd300;
   font-weight: bold;
+  border-radius: 2px;
 }
 
 #install img {
