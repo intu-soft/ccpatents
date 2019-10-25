@@ -10714,6 +10714,7 @@ header.masthead .important {
   font-weight: bold;
   border-radius: 2px;
   padding: 3px 4px 4px 3px;
+  opacity: 0.8;
 }
 
 header.masthead p {
