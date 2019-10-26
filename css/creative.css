@@ -10973,9 +10973,13 @@ header.masthead #scroll-down i {
   padding: 1em 0;
   background: rgba(255, 255, 255, 0.9);
   background: #555555;
-  opacity: 0;
+  opacity: .7;
   -webkit-transition: 0.6s;
   transition: 0.6s;
+}
+
+#blog .post .text .price {
+  background: #ff7f00;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11011,14 +11015,6 @@ header.masthead #scroll-down i {
 #blog .post .text div {
   color: #fff;
   text-align: right;
-}
-
-#blog .post:hover .text, #blog .post:focus .text {
-  opacity: .7;
-}
-
-#blog .post:hover .text .price, #blog .post:focus .text .price {
-  background: #ff7f00;
 }
 
 #blog .post:hover .icon, #blog .post:focus .icon {
