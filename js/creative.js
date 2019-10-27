@@ -45,6 +45,12 @@
     } else {
       $("#mainNav").removeClass("navbar-scrolled");
     }
+
+    if($("#mainNav").offset().top > 499.9) {
+      gtag('event', 'scroll_500', {
+        'event_category': 'scroll'
+      });
+    }
   };
   // Collapse now if page is not at top
   navbarCollapse();
