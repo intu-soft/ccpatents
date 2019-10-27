@@ -96,7 +96,8 @@
 
   <!-- Masthead -->
   <header class="masthead">
-    <img oncontextmenu="return false" onselectstart="return false" ondragstart="return false" class="d-none d-xl-block" style="position: absolute; left: 7rem; bottom: 15rem;" src="img/point.png" alt="point">
+    <img oncontextmenu="return false" onselectstart="return false" ondragstart="return false" class="d-none d-xl-block"
+      style="position: absolute; left: 7rem; bottom: 15rem;" src="img/point.png" alt="point">
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
@@ -107,8 +108,12 @@
           <p class="text-white-75 mb-1" data-aos="fade-right" data-aos-duration="1000">누구나 쉽게, <span
               class="important">무료</span>로 사용할
             수 있는</p>
-          <p class="mb-5 mt-2" data-aos="fade-left" data-aos-duration="1000"
-            data-aos-delay="500"><span class="important">특허 검색 소프트웨어</span></p>
+          <p class="mt-2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500"><span class="important">특허
+              검색 소프트웨어</span></p>
+          <p id="ie_warn" class="text-white-75" style="display: none;"><span
+              style="background: crimson; padding: 3px; border-radius: 2px; opacity: 0.75;">인터넷 익스플로러와는 호환이 안될 수
+              있습니다.</span></p>
+          <div class="mb-5"></div>
           <div class="row">
             <div id="store-button" class="col-lg-6 col-md-6 text-center" style="display: none">
               <div class="mt-3">
@@ -174,12 +179,11 @@
 
             <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
               <h2 class="mb-4"><span class="divider-v">|</span><span> 직관성</span></h2>
-              <div class="col-lg-12">
-                <img class="img-fluid popup-img" src="img/features/1.png" alt="searching patents">
-              </div>
+              <img class="col-lg-12 img-fluid popup-img" src="img/features/1.png" alt="searching patents">
               <p class="text-right" style="font-size: 12px">이미지를 클릭하여 확대할 수 있습니다.</p>
               <p>
-                CCPatents는 검색식을 만드는 과정을 <important>키워드 입력</important> - <important>동의어 입력</important> - <important>검색식 생성</important> 단계로 분리하고, 모든 단어를 태그
+                CCPatents는 검색식을 만드는 과정을 <important>키워드 입력</important> - <important>동의어 입력</important> - <important>검색식
+                  생성</important> 단계로 분리하고, 모든 단어를 태그
                 처리하여 <important>사용자가 단어에만 집중</important>할 수 있도록 하였습니다.
               </p>
               <p>검색식도 직접 입력할 필요 없이 <important>특허 검색</important> 버튼을 누르면, <important>당신이 선택한 검색 서비스 홈페이지에 자동으로
@@ -191,9 +195,7 @@
 
             <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
               <h2 class="mb-4"><span class="divider-v">|</span><span> 동의어 사전</span></h2>
-              <div class="col-lg-12">
-                <img class="img-fluid popup-img" src="img/features/2.png" alt="databases">
-              </div>
+              <img class="col-lg-12 img-fluid popup-img" src="img/features/2.png" alt="databases">
               <p style="font-size: 12px">이미지를 클릭하여 확대할 수 있습니다.</p>
               <p>
                 CCPatents는 워드넷과 키프리스 동의어 사전을 내장하고 있지만, <important>원하는 동의어가 자동으로 검색되지 않거나,
@@ -218,7 +220,7 @@
               <p>민간 기업에선 17개 특허청의 약 90억 건의 특허 DB를 제공하는 <important>구글 특허</important>가 있습니다.</p>
               <P>
                 CCPatents는 입력된 단어를 기반으로 <important>당신이 선택한 서비스의 검색식으로 즉시 변경 및 생성</important>할 수
-                  있습니다.
+                있습니다.
               </p>
               <p>또한 각 서비스마다 다르게 적용되는 규칙도 자동으로 고려하며, 사용자에게 알려줍니다.</p>
               <!--<p><a href="#" class="btn btn-primary px-3 py-2">More</a></p>-->
@@ -370,7 +372,8 @@
           <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">크롬의 경우 확인창이 나타납니다.<br>이 경우 <important>
               Microsoft Store 열기</important> 버튼을 클릭하면 됩니다.</p>
         </div>
-        <div class="col-lg-5 order-3 px-3 text-lg-right desc2" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+        <div class="col-lg-5 order-3 px-3 text-lg-right desc2" data-aos="fade-up" data-aos-duration="500"
+          data-aos-delay="100">
           <h4 class="py-3 font-weight-bold">Step 2. 윈도우 앱 설치</h4>
           <p><span class="important">마이크로소프트 계정이 없어도 설치할 수 있습니다.</span></p>
           <p>
@@ -442,6 +445,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.js"></script>
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -458,7 +462,7 @@
   <script src="js/native-toast.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/creative.js"></script>
+  <script src="js/creative.min.js" type="text/babel"></script>
 
 </body>
 

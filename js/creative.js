@@ -1,5 +1,14 @@
+let scroll_500_event = false;
+let scroll_1000_event = false;
+
 (function ($) {
   "use strict"; // Start of use strict
+
+  let agent = navigator.userAgent.toLowerCase();
+
+  if ((navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1)) {
+    document.getElementById("ie_warn").style.display = 'block';
+  }
 
   let filter = "win32|win64";
   if (navigator.platform) {
@@ -46,10 +55,18 @@
       $("#mainNav").removeClass("navbar-scrolled");
     }
 
-    if($("#mainNav").offset().top > 499.9) {
+    if ($("#mainNav").offset().top > 499.9 && scroll_500_event === false) {
       gtag('event', 'scroll_500', {
         'event_category': 'scroll'
       });
+      scroll_500_event = true;
+    }
+
+    if ($("#mainNav").offset().top > 999.9 && scroll_1000_event === false) {
+      gtag('event', 'scroll_1000', {
+        'event_category': 'scroll'
+      });
+      scroll_1000_event = true;
     }
   };
   // Collapse now if page is not at top
@@ -59,7 +76,7 @@
 
   $(".youtube-popup").grtyoutube({
     autoPlay: true,
-    theme:"light"
+    theme: "light"
   });
   document.getElementById('play_video').onclick = function () {
     gtag('event', 'play_video', {
