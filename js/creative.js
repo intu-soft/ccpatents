@@ -1,5 +1,8 @@
 let scroll_500_event = false;
 let scroll_1000_event = false;
+let share_event = false;
+let video_event = false;
+let store_event = false;
 
 (function ($) {
   "use strict"; // Start of use strict
@@ -79,9 +82,12 @@ let scroll_1000_event = false;
     theme: "light"
   });
   document.getElementById('play_video').onclick = function () {
-    gtag('event', 'play_video', {
-      'event_category': 'button'
-    });
+    if(video_event === false) {
+      gtag('event', 'play_video', {
+        'event_category': 'button'
+      });
+      video_event = treu;
+    }
   }
 
   $('.carousel-posts').owlCarousel({
@@ -112,16 +118,22 @@ let scroll_1000_event = false;
 
   //document.querySelector('#share').addEventListener('click', WebShare);
   document.getElementById('share').onclick = function () {
-    gtag('event', 'share', {
-      'event_category': 'button'
-    });
+    if(share_event === false) {
+      gtag('event', 'share', {
+        'event_category': 'button'
+      });
+      share_event = true;
+    }
+    
     WebShare();
   }
 
   document.getElementById('store').onclick = function () {
-    gtag('event', 'click_store', {
-      'event_category': 'button'
-    });
+    if(store_event === false) {
+      gtag('event', 'click_store', {
+        'event_category': 'button'
+      });
+    }
   }
 
   setTimeout(function () {
