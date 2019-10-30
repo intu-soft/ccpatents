@@ -10789,9 +10789,6 @@ header.masthead #scroll-down i {
   header.masthead h1 {
     font-size: 3rem;
   }
-  header.masthead span {
-    font-size: 0.85rem;
-  }
 }
 
 @media (min-width: 1200px) {
