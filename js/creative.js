@@ -129,7 +129,15 @@ let store_event = false;
   }
 
   document.getElementById('store').onclick = function () {
-    if(store_event === false) {
+    let gtag_ignore = true;
+
+    if(agent.indexOf("windows nt 10.0")!= -1) {
+      gtag_ignore = false;
+    } else {
+      alert("윈도우10에서만 지원됩니다.");
+    }
+
+    if(store_event === false && gtag_ignore === false) {
       gtag('event', 'click_store', {
         'event_category': 'button'
       });
