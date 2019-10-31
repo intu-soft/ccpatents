@@ -1,4 +1,3 @@
-let scroll_500_event = false;
 let scroll_1000_event = false;
 let share_event = false;
 let video_event = false;
@@ -56,13 +55,6 @@ let store_event = false;
       $("#mainNav").addClass("navbar-scrolled");
     } else {
       $("#mainNav").removeClass("navbar-scrolled");
-    }
-
-    if ($("#mainNav").offset().top > 499.9 && scroll_500_event === false) {
-      gtag('event', 'scroll_500', {
-        'event_category': 'scroll'
-      });
-      scroll_500_event = true;
     }
 
     if ($("#mainNav").offset().top > 999.9 && scroll_1000_event === false) {
