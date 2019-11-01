@@ -150,7 +150,7 @@ async function WebShare() {
   }
 
   const title = "CCPatents";
-  const text = "무료! 특허 검색식 자동화 프로그램";
+  const text = "무료! 특허 검색식 자동화 프로그램. 클릭 몇 번으로 키프리스 검색식이 뚝.딱.";
   const url = "https://www.ccpatents.net";
   try {
     await navigator.share({
