@@ -10762,7 +10762,7 @@ header.masthead {
   background-size: cover;
 }
 
-header.masthead .important {
+header.masthead b {
   color: #555555;
   background-color: #ffd300;
   font-weight: bold;
@@ -10798,30 +10798,6 @@ header.masthead #scroll-down p {
 
 header.masthead #scroll-down i {
   font-size: 18px;
-  -webkit-animation: mover 0.5s infinite alternate;
-  animation: mover 0.5s infinite alternate;
-}
-
-@-webkit-keyframes mover {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
-  }
-}
-
-@keyframes mover {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
-  }
 }
 
 @media (max-width: 991.98px) {
@@ -10862,7 +10838,7 @@ header.masthead #scroll-down i {
   cursor: pointer;
 }
 
-#features important {
+#features b {
   color: #555555;
   background-color: #ffd300;
   font-weight: bold;
@@ -11195,14 +11171,7 @@ header.masthead #scroll-down i {
   color: black;
 }
 
-#install .important {
-  color: #555555;
-  background-color: #ffd300;
-  font-weight: bold;
-  border-radius: 2px;
-}
-
-#install important {
+#install b {
   color: #555555;
   background-color: #ffd300;
   font-weight: bold;
