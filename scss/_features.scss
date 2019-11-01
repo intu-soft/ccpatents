@@ -1,7 +1,8 @@
-#features{
+#features {
 	word-break: keep-all;
 
 	.popup-img {
+
 		&:hover,
 		&:focus {
 			cursor: pointer;
@@ -15,29 +16,33 @@
 		border-radius: 2px;
 	}
 
-    .nav-link-wrap{
+	.nav-link-wrap {
 		background: $secondary;
+
 		// @include gradient-background();
-		@include media-breakpoint-up(md){
+		@include media-breakpoint-up(md) {
 			padding-top: 3rem !important;
 			padding-bottom: 3rem !important;
 			margin-bottom: -60px;
 			z-index: 1;
 			opacity: .5;
 		}
-		@include media-breakpoint-down(sm){
+
+		@include media-breakpoint-down(sm) {
 			padding-top: 0.65rem !important;
 			padding-bottom: 0.65rem !important;
 			background: $secondary;
 			margin-top: 30px;
 			opacity: .5;
 		}
-    }
-    .nav-pills{
-		p{
+	}
+
+	.nav-pills {
+		p {
 			margin-bottom: 0;
 		}
-		.nav-link{
+
+		.nav-link {
 			float: left;
 			border-radius: 0;
 			margin-bottom: 0;
@@ -46,7 +51,8 @@
 			font-weight: 500;
 			position: relative;
 			font-family: 'Gothic+A1', sans-serif;
-			&:after{
+
+			&:after {
 				position: absolute;
 				top: 20px;
 				bottom: 10px;
@@ -59,38 +65,46 @@
 				border-color: transparent #fafafa transparent transparent;
 				opacity: 0;
 			}
-			span{
+
+			span {
 				font-size: 24px;
 				margin-right: 5px;
 				color: #ffffff;
 			}
-			&.active, &:hover{
+
+			&.active,
+			&:hover {
 				color: $white;
 				font-size: 20px;
 				// background: #333644;
 				@include transition(.3s);
 				background: transparent;
 				font-weight: 700;
-				&:after{
+
+				&:after {
 					opacity: 1;
 				}
-				span{
+
+				span {
 					color: $white;
 				}
-				@include media-breakpoint-down(sm){
-					&:after{
+
+				@include media-breakpoint-down(sm) {
+					&:after {
 						opacity: 0;
 					}
 				}
 			}
-			@include media-breakpoint-down(sm){
+
+			@include media-breakpoint-down(sm) {
 				display: block;
 				width: 100%;
 			}
 		}
 	}
-	.tab-content{
-		.tab-pane{
+
+	.tab-content {
+		.tab-pane {
 			font-family: 'Gothic+A1', sans-serif;
 			color: #292929;
 		}
